@@ -328,8 +328,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 25px;
-  padding: 45px;
+  margin-bottom: 5px;
+  padding: 40px;
   font-size: larger;
 }
 
@@ -370,8 +370,13 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
-
+.footer-left {
+  display: flex;
+  flex-direction: row;
+}
 .footer-left img {
+  display: flex;
+  flex-direction: column;
   width: 40px;
   height: 40px;
   margin-right: 10px;
@@ -380,6 +385,9 @@ body {
 .song-details {
   display: flex;
   flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .footer-center i {
